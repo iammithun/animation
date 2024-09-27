@@ -1,0 +1,58 @@
+html, body { 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  height: 5.5em;
+  width: 5.5em;
+  margin: 0.5em;
+  animation: rotate 1s infinite;
+}
+
+.square1 {
+  background: red;
+}
+
+.square2 {
+  background: orange;
+}
+
+.square3 {
+  background: yellow;
+}
+
+.square4 {
+  background: green;
+}
+
+.square5 {
+  background: blue;
+}
+.square6 {
+  background: purple;
+}
+.square7 {
+  background: pink;
+}
+
+.square8 {
+  background: black;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
